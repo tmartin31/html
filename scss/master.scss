@@ -1,0 +1,10 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+
+// Base
+@import "base/layout";
+@import "base/typography";
+
+// Tailwind
+@tailwind utilities;
