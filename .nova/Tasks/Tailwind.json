@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "npx tailwind build scss\/master.css -c tailwind.config.js -o style.css"
+      "script" : "npx tailwindcss -i scss\/master.css -c tailwind.config.js -o style.css"
     }
   },
   "identifier" : "E2DEAD50-5E66-47FF-9F0D-A8861DB7B906"

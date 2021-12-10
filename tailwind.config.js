@@ -1,33 +1,39 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
-    purge: {
-        enabled: true,
-        content: ['*.html'],
-    },
-    darkMode: false,
-    theme: {
-        screens: {
-            'sm': {'max': '800px'},
-            'lg': '801px',
-        },              
-        colors: {
-            black: '#000',
-            blue: colors.lightBlue,
-            gray: colors.coolGray,
-            pink: colors.fuchsia,
-            rose: colors.rose,
-            white: '#fff',
+	
+	content: ['*.html'],
+	
+	darkMode: false,	
+	
+	theme: {
+		
+		colors: {
+			black: '#000000',
+			blue: colors.blue,
+			gray: colors.gray,
+			green: colors.green,
+			red: colors.red,
+			white: '#ffffff',
         },
-        container: {
-            center: true
+		
+		container: {
+            center: true,
         },
-        fontFamily: {
-            sans: ['Operator Mono', 'sans-serif'],
+		
+		fontFamily: {
+            sans: ['Overpass', 'sans-serif'],
         },
+		
+		extend: {},
+		
+	},
+	
+	variants: {
+		
         extend: {},
+		
     },
-    variants: {
-        extend: {},
-    },
+	
+	plugins: [],
 }
